@@ -1,0 +1,45 @@
+# =====================================================
+# Goo Lab - root .gitignore
+# (unity-project/ has its own Unity-specific .gitignore)
+# =====================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.code-workspace
+
+# Builds
+builds/
+dist/
+*.zip
+*.tar.gz
+
+# Logs
+*.log
+npm-debug.log*
+
+# Env
+.env
+.env.local
+
+# Art working files (large)
+art/raw/
+art/psd/
+*.psd
+*.kra
+
+# Generated
+.claude/
